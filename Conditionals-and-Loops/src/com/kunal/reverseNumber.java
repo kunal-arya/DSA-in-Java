@@ -7,7 +7,7 @@ public class reverseNumber {
         while(n > 0){
             int rem = n % 10;
             reverse = reverse * 10 + rem;
-            n = n / 10;
+            n /= 10;
         }
         System.out.println(reverse);
     }
